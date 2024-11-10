@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Blog Section</title>
+        <link rel="shortcut icon" href="images/fav-icon.svg"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            	*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgba(255, 255, 255, 0.15);
+    background-image: url(https://happenings.lpu.in/wp-content/uploads/2019/06/LPU-Campus-1.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}   
+ 
+/*--blog--------------------------*/
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.blog-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.blog-heading span{
+    color: #f33c3c;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #439480;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+ 
+.blog-box{
+    width:350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px 20px;
+ 
+}
+.blog-img{
+    width:100%;
+    height: auto;
+}
+.blog-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a{
+    color: #0f0f0f;
+}
+.blog-text a:hover{
+    color: #c74242;
+    transition: all ease 0.3s;
+}
+ 
+ 
+@media(max-width:1250px){
+ 
+    .blog-box{
+        width: 300px;
+    }
+} 
+@media(max-width:1100px){
+    .blog-box{
+        width:70%;
+    }
+}
+ 
+@media(max-width:550px){
+   
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding:20px;
+    }
+}
+        </style>
+        </head>
+        <body>
+            <!--blog-section============================================================================-->
+            <section id="blog">
+                <!--blog-heading--------------->
+                <div class="blog-heading">
+                  <span>Recent Posts</span>
+                  <h3>University Blog</h3>
+                </div>
+          
+          
+                <!--container---------------->
+                <div class="blog-container">
+          
+                  <!--box-1------------->
+                  <div class="blog-box">
+          
+                    <!--img---->
+                    <div class="blog-img">
+                      <img alt="blog" src="https://happenings.lpu.in/wp-content/uploads/2022/09/VXZ_2842-2048x1367.jpg">
+                    </div>
+                    <!--text--->
+                    <div class="blog-text">
+                      <span>26 Oct 2024</span>
+                      <a href="#" class="blog-title">Hackathon</a>
+                      <p>Participating in a Hackathon at Lovely Professional University (LPU) offers students a unique opportunity to develop practical problem-solving skills, collaborate with peers, and showcase their creativity in real-world scenarios. It fosters innovation, enhances technical expertise, and helps students build their professional network, potentially leading to career opportunities. Additionally, hackathons at LPU often feature mentorship from industry experts and provide platforms for students to win prizes, internships, and exposure to cutting-edge technologies.</p>
+                    </div>
+
+                    <!--box-2------------->
+                <div class="blog-box">
+          
+                    <!--img---->
+                    <div class="blog-img">
+                      <img alt="blog" src="https://th.bing.com/th/id/OIP.A2g7VmMf80eFzK7F6JaiawHaHa?rs=1&pid=ImgDetMain">
+                    </div>
+                    <!--text--->
+                    <div class="blog-text">
+                      <span>LPU - MANILA /2022</span>
+                      <a href="#" class="blog-title">Best Poster Presentation</a>
+                      <p>Internation Poster Presentation competation...</p>
+                    </div>
+          
+                  </div>
+          
+                  </div>
+
+                  <!--box-3------------->
+                  <div class="blog-box">
+          
+                    <!--img---->
+                    <div class="blog-img">
+                        <iframe width="361" height="642" src="https://www.youtube.com/embed/fADp0Hxf6_g" title="Freshmen Induction 2024 | Welcome To LPU | New Beginnings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <!--text--->
+                    <div class="blog-text">
+                      <span>27 july 2024 </span>
+                      <a href="#" class="blog-title">Freshman Induction</a>
+                      <p>Freshman Induction at Lovely Professional University (LPU) is a comprehensive orientation program designed to help new students adapt to campus life, understand academic expectations, and build connections with peers and faculty. It includes interactive sessions, workshops, and activities to ensure a smooth transition into university life.</p>
+                    </div>
+          
+                  </div>
+          
+                </div>
+
+
+                <div class="blog-box">
+          
+                    <!--img---->
+                    <div class="blog-img">
+                      <img alt="blog" src="https://th.bing.com/th/id/OIP.CorNBrMm9YXDGglYa858wgHaFf?w=207&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                    </div>
+                    <!--text--->
+                    <div class="blog-text">
+                      <span>26 Oct 2024 </span>
+                      <a href="#" class="blog-title">Hackathon - Web Design</a>
+                      <p>Hackathons at Lovely Professional University (LPU) are high-energy events designed to encourage innovation, problem-solving, and technical creativity among students. These events provide a platform for students from various disciplines, especially those in technology and engineering fields, to collaborate, ideate, and develop software solutions, apps, and digital tools within a set timeframe.</p>
+                    </div>
+          
+                  </div>
+          
+                  </div>
+
+                  <div class="blog-box">
+          
+                    <!--img---->
+                    <div class="blog-img">
+                      <img alt="blog" src="https://th.bing.com/th/id/OIP.cSeIbQ3DVCUvkRhwn__QuwHaC8?w=349&h=139&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                    </div>
+                    <!--text--->
+                    <div class="blog-text">
+                      <span>LPU offers </span>
+                      <a href="#" class="blog-title">DISTANCE EDUCATION</a>
+                      <p>Distance education at Lovely Professional University (LPU) offers flexible and accessible learning opportunities for students who are unable to pursue traditional on-campus education. Through LPU's Distance Education (LPU-DE) programs, learners can choose from a variety of undergraduate and postgraduate courses in fields such as business, computer applications, and more. The university uses a combination of online lectures, study materials, and interactive tools to ensure an engaging and comprehensive learning experience. LPU’s distance education programs are designed to cater to working professionals and students from different geographical locations, providing them with the opportunity to study at their own pace while receiving quality education.</p>
+                      <a href="#">Read More</a>
+                    </div>
+          
+                  </div>
+          
+                  </div>
+          
+              </section>
+              
+        </body>
+</html>
